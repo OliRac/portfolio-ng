@@ -1,7 +1,7 @@
-<button (click)="changeLang()">Toggle</button>
+<button (click)="toggleLang()">Toggle</button>
 <p>{{'language' | translate }}</p>
 
-<app-navbar [currLang]=this.getCurrentLang()></app-navbar>
+<app-navbar [language]=this.getCurrentLang()></app-navbar>
 <app-hero></app-hero>
 <app-about></app-about>
 <app-skills></app-skills>

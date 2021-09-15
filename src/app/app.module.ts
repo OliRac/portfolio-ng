@@ -16,6 +16,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { MultilangComponent } from './components/multilang/multilang.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -32,7 +33,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     EducationComponent,
     ExperienceComponent,
     LinksComponent,
-    FooterComponent
+    FooterComponent,
+    MultilangComponent
   ],
   imports: [
     BrowserModule,

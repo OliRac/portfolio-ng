@@ -13,7 +13,7 @@ export class AppComponent {
     this.configTranslation();
   }
 
-  changeLang(): void {
+  toggleLang(): void {
     this.getCurrentLang() === LANG_CODES.english ? this.setCurrentLang(LANG_CODES.french) : this.setCurrentLang(LANG_CODES.english);
   }
 
