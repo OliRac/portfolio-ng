@@ -8,32 +8,26 @@ import { LANG_CODES } from 'src/app/util/lang.codes';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  currLang: string;
-
-  //@Output()
-  //toggleLang = new EventEmitter<string>();
 
   constructor(private translate: TranslateService) {
     this.configTranslation();
   }
 
-  ngOnInit() {
-    this.currLang = LANG_CODES.english;
-  }
-
   changeLang(): void {
-    if(this.currLang === LANG_CODES.english) {
-      this.currLang = LANG_CODES.french;
-    } else {
-      this.currLang = LANG_CODES.english;
-    }
-
-    this.translate.use(this.currLang);
+    this.getCurrentLang() === LANG_CODES.english ? this.setCurrentLang(LANG_CODES.french) : this.setCurrentLang(LANG_CODES.english);
   }
 
   configTranslation(): void {
     this.translate.addLangs([LANG_CODES.english, LANG_CODES.french]);
     this.translate.setDefaultLang(LANG_CODES.english);
     this.translate.use(LANG_CODES.english);
+  }
+
+  getCurrentLang(): string {
+    return this.translate.currentLang;
+  }
+
+  setCurrentLang(langCode: string): void {
+    this.translate.use(langCode);
   }
 }

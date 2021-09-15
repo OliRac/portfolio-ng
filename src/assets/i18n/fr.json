@@ -1,9 +1,7 @@
 {
     "welcome": "bonjour le monde!",
-    "something": {
-        "another": "francais"
-    },
+    "language": "francais",
     "navbar": {
-        "thing":"hey là!"
+        "hello":"hey là! d'un autre composante!"
     }
 }

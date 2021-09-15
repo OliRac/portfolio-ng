@@ -1,9 +1,7 @@
 {
     "welcome": "hello world!",
-    "something": {
-        "another": "english"
-    },
+    "language": "english",
     "navbar": {
-        "thing":"hey there!"
+        "hello":"hey there! from another component!"
     }
 }
