@@ -1,4 +1,6 @@
-<app-navbar></app-navbar>
+<button (click)="changeLang()">Toggle</button>
+<p>{{'something.another' | translate }}</p>
+<app-navbar [currLang]=this.currLang></app-navbar>
 <app-hero></app-hero>
 <app-about></app-about>
 <app-skills></app-skills>

@@ -1,0 +1,9 @@
+{
+    "welcome": "hello world!",
+    "something": {
+        "another": "english"
+    },
+    "navbar": {
+        "thing":"hey there!"
+    }
+}
