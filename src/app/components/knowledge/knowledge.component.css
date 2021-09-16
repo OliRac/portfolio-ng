@@ -12,3 +12,7 @@
     background-size: 100%;
     transition: background 0s;
 }
+
+#ancestor {
+    flex-wrap: wrap;
+}
