@@ -1,1 +1,32 @@
-<p>{{'navbar.hello' | translate}}</p>
+<nav class="navbar is-fixed-top is-info">
+    <div class="navbar-brand">     
+        <div id="burger" class="navbar-burger burger" data-target="menu" (click)="toggleBurgerMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    
+    <div class="navbar-menu" id="menu">
+        <div class="navbar-end">
+            <a class="navbar-item is-info" href="#about">
+                <span>{{'navbar.about' | translate}}</span>
+            </a>
+            <a class="navbar-item is-info" href="#skills">
+                <span>{{'navbar.skills' | translate}}</span>
+            </a>
+            <a class="navbar-item is-info" href="#knowledge">
+                <span>{{'navbar.knowledge' | translate}}</span>
+            </a>
+            <a class="navbar-item is-info" href="#education">
+                <span>{{'navbar.education' | translate}}</span>
+            </a>
+            <a class="navbar-item is-info" href="#experience">
+                <span>{{'navbar.experience' | translate}}</span>
+            </a>
+            <a class="navbar-item is-info" href="#links">
+                <span>{{'navbar.links' | translate}}</span>
+            </a>
+        </div>
+    </div>
+</nav>

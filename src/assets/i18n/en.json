@@ -1,7 +1,36 @@
 {
     "welcome": "hello world!",
     "language": "english",
+    "about": {
+        
+    },
+    "education": {
+        
+    },
+    "experience": {
+        
+    },
+    "footer": {
+        
+    },
+    "hero": {
+        
+    },
+    "knowledge": {
+        
+    },
+    "links": {
+        
+    },
     "navbar": {
-        "hello":"hey there! from another component!"
+        "about":"About",
+        "skills":"Skills",
+        "knowledge": "Knowledge",
+        "education": "Education",
+        "experience": "Experience",
+        "links": "Links"
+    },
+    "skills": {
+        
     }
 }

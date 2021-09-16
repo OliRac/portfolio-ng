@@ -1,7 +1,36 @@
 {
     "welcome": "bonjour le monde!",
     "language": "francais",
+    "about": {
+        
+    },
+    "education": {
+        
+    },
+    "experience": {
+        
+    },
+    "footer": {
+        
+    },
+    "hero": {
+        "title": ""
+    },
+    "knowledge": {
+        
+    },
+    "links": {
+        
+    },
     "navbar": {
-        "hello":"hey là! d'un autre composante!"
+        "about":"À propos",
+        "skills":"Compétences",
+        "knowledge": "Connaissances",
+        "education": "Éducation",
+        "experience": "Expérience",
+        "links": "Liens"
+    },
+    "skills": {
+        
     }
 }
