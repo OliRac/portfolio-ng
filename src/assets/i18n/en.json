@@ -48,9 +48,6 @@
             }
         ]
     },
-    "footer": {
-        
-    },
     "hero": {
         "title": "Software Developer"
     },
@@ -59,15 +56,7 @@
         "elements": ["OpenGL Pipeline", "Networking (TCP/UDP)", "Microservices", "Artificial Intelligence", "Machine Learning", "Computer Vision"]
     },
     "links": {
-        
-    },
-    "navbar": {
-        "about":"About",
-        "skills":"Skills",
-        "knowledge": "Knowledge",
-        "education": "Education",
-        "experience": "Experience",
-        "links": "Links"
+        "title":"Links"
     },
     "skills": {
         "title": "Skills",

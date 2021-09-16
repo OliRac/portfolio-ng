@@ -48,9 +48,6 @@
             }
         ]
     },
-    "footer": {
-        
-    },
     "hero": {
         "title": "Développeur de logiciels"
     },
@@ -59,15 +56,7 @@
         "elements": ["Pipeline OpenGL", "Réseautage (TCP/UDP)", "Microservices", "Intelligence Artificielle", "Apprentissage Automatique", "Vision par Ordinateur"]
     },
     "links": {
-        
-    },
-    "navbar": {
-        "about":"À propos",
-        "skills":"Compétences",
-        "knowledge": "Connaissances",
-        "education": "Éducation",
-        "experience": "Expérience",
-        "links": "Liens"
+        "title": "Liens"
     },
     "skills": {
         "title": "Compétences",
