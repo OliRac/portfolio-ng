@@ -1,0 +1,18 @@
+<section class="section" id="education">
+    <div class="container">
+        <h1 class="title">{{'education.title' | translate}}</h1>
+    </div>
+</section>
+
+<section class="hero has-background-link-light has-text-centered" *ngFor="let institution of ('education.institutions' | translate)">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title has-text-link">
+          {{institution.diploma}}
+        </h1>
+        <h2 class="subtitle has-text-link">
+          {{institution.name}}
+        </h2>
+      </div>
+    </div>
+</section>

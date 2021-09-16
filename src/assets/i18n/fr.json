@@ -7,7 +7,17 @@
         "description": "Description en francais blahblahblah"
     },
     "education": {
-        
+        "title":"Éducation",
+        "institutions": [
+            {
+                "diploma": "Bac. Sciences Informatiques",
+                "name": "Concordia University, Montréal"
+            },
+            {
+                "diploma": "DEC Techniques de l'informatique",
+                "name": "CÉGEP du Vieux Montréal"
+            }
+        ]
     },
     "experience": {
         
