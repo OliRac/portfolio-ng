@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*Dark & thin scrollbar*/
+html {
+    scrollbar-color: #495460 rgba(255, 255, 255, .0);
+    scrollbar-width: thin;
+}
+
 /*Fade in*/
 body {
     -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
