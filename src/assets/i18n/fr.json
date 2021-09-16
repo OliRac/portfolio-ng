@@ -20,7 +20,33 @@
         ]
     },
     "experience": {
-        
+        "title": "Expérience",
+        "jobs": [
+            {
+                "title": "Saisie de données",
+                "description": ["Travail en ligne à temps partiel pour un projet confidentiel.", "Excellente opportunité de travailler avec un horaire universitaire à temps plein."],
+                "location": "Appen",
+                "duration": "Mai 2019 - Décembre 2020"
+            },
+            {
+                "title": "Technicien informatique",
+                "description": ["Création d’un outil de suivi de projet sur l’intranet de l’organisation en utilisant HTML / CSS, JS, PHP et MariaDB. L’outil permet à un administrateur d’ajouter des projets et des données telles que les budgets et les dates d’échéances, tout en visualisant les données sous plusieurs types de graphiques pour aider à la prise de décisions.", "Configuration et maintient d’un serveur web CentOS."],
+                "location": "Ville de Westmount",
+                "duration": "Mai 2016 - Août 2016"
+            },
+            {
+                "title": "Technicien informatique",
+                "description": ["Participation à la deuxième refonte du site web de l’organisation en remodelant le front-end.", "Conception de scripts bash pour automatiser des tâches de récupération de données distantes.", "Documentation de processus d’affaires."],
+                "location": "Ville de Westmount",
+                "duration": "Mai 2015 - Novembre 2015"
+            },
+            {
+                "title": "Technicien informatique",
+                "description": ["Aide à la révision de l’ensemble du site web de l’organisation; gestion de la migration des données et du développement frontal.", "Réécriture de documentation désuète des logiciels et des serveurs du département."],
+                "location": "Ville de Westmount",
+                "duration": "Mai 2014 - Août 2014"
+            }
+        ]
     },
     "footer": {
         

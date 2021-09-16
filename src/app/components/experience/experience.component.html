@@ -1,0 +1,30 @@
+<!-- Experience -->
+<section class="section" id="experience">
+    <div class="container bottom-spacer">
+        <h1 class="title">{{'experience.title' | translate}}</h1>
+    </div>
+    <div class="container">
+        <div class="columns is-multiline">
+            <div class="column is-half" *ngFor="let job of ('experience.jobs' | translate)">
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                            {{job.title}}
+                        </p>
+                    </header>
+
+                    <div class="card-content">
+                        <ul>
+                            <li *ngFor="let task of job.description">{{task}}</li>
+                        </ul>
+                    </div>
+
+                    <footer class="card-footer">
+                        <p class="card-footer-item"><i class="fas fa-location-arrow has-text-info"></i>{{job.location}}</p>
+                        <p class="card-footer-item"><i class="fas fa-calendar-alt has-text-info"></i>{{job.duration}}</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

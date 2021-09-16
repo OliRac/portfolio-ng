@@ -20,7 +20,33 @@
         ]
     },
     "experience": {
-        
+        "title": "Experience",
+        "jobs": [
+            {
+                "title": "Data Entry",
+                "description": ["Online part time work for a confidential project.", "Great opportunity to work with a full time college schedule."],
+                "location": "Appen",
+                "duration": "May 2019 - December 2020"
+            },
+            {
+                "title": "IT Technician",
+                "description": ["Built a project tracking tool on the organization’s intranet using HTML/CSS, JS, PHP and MariaDB. The tool allows an administrator to add projects and data such as budgets, start dates and deadlines, and visualizes the data in multiple types of graphs to aid in decision making.", "Set up and maintained a CentOS web server."],
+                "location": "City of Westmount",
+                "duration": "May 2016 - August 2016"
+            },
+            {
+                "title": "IT Technician",
+                "description": ["Assisted in the second revamp of the organization’s web site by remodeling the front-end.", "Coded multiple bash scripts to automate data fetching jobs.", "Produced documentation for business processes."],
+                "location": "City of Westmount",
+                "duration": "May 2015 - November 2015"
+            },
+            {
+                "title": "IT Technician",
+                "description": ["Aided in the revision of the organization’s entire web site; handled data migration and front-end development.", "Rewrote obsolete documentation for the department’s software and servers."],
+                "location": "City of Westmount",
+                "duration": "May 2014 - August 2014"
+            }
+        ]
     },
     "footer": {
         
