@@ -2,7 +2,9 @@
     "welcome": "bonjour le monde!",
     "language": "francais",
     "about": {
-        
+        "title": "À propos",
+        "quote": "Concentre sur le moment.",
+        "description": "Description en francais blahblahblah"
     },
     "education": {
         
