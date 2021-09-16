@@ -5,9 +5,9 @@
     </div>
 
     <div class="columns is-multiline is-centered">
-        <div class="column is-narrow" *ngFor="let skill of skills">
+        <div class="column is-narrow" *ngFor="let elem of ('skills.elements' | translate)">
             <p class="box subtitle hover-grow skill">
-                {{skill}}
+                {{elem}}
             </p>
         </div>
     </div>

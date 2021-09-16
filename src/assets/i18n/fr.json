@@ -19,7 +19,8 @@
         "title": "Développeur de logiciels"
     },
     "knowledge": {
-        
+        "title": "Connaissances",
+        "elements": ["Pipeline OpenGL", "Réseautage (TCP/UDP)", "Microservices", "Intelligence Artificielle", "Apprentissage Automatique", "Vision par Ordinateur"]
     },
     "links": {
         
@@ -33,6 +34,7 @@
         "links": "Liens"
     },
     "skills": {
-        "title": "Compétences"
+        "title": "Compétences",
+        "elements": ["Python", "C++", "C#", "Java", "Javascript", "Typescript", "HTML/CSS" , "SQL" , "Unity", "Godot", "GLSL"]
     }
 }

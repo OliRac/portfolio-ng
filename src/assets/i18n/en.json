@@ -19,7 +19,8 @@
         "title": "Software Developer"
     },
     "knowledge": {
-        
+        "title": "Knowledge",
+        "elements": ["OpenGL Pipeline", "Networking (TCP/UDP)", "Microservices", "Artificial Intelligence", "Machine Learning", "Computer Vision"]
     },
     "links": {
         
@@ -33,6 +34,7 @@
         "links": "Links"
     },
     "skills": {
-        "title": "Skills"
+        "title": "Skills",
+        "elements": ["Python", "C++", "C#", "Java", "Javascript", "Typescript", "HTML/CSS" , "SQL" , "Unity", "Godot", "GLSL"]
     }
 }

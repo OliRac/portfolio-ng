@@ -1,0 +1,17 @@
+<!-- knowledge 
+This part will need to be redisigned (it wasn't like I wanted it to be anyway!)-->
+<section class="section" id="knowledge">
+    <div class="container bottom-spacer">
+        <h1 class="title">{{'knowledge.title' | translate}}</h1>
+    </div>
+
+    <div class="container">
+        <div class="tile is-ancestor">
+            <div class="tile is-parent" *ngFor="let elem of ('knowledge.elements' | translate)">
+                <article class="tile is-child box notification is-info hover-ripple">
+                  <p class="subtitle has-text-centered">{{elem}}</p>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>

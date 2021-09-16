@@ -1,0 +1,14 @@
+.hover-ripple{
+    transition: background 0.8s;
+}
+
+.hover-ripple:hover {
+    background:white radial-gradient(circle, transparent 1%, white 1%) center/15000%;
+    color: hsl(204, 86%, 53%);
+}
+
+.hover-ripple:active{
+    background-color: hsl(204, 86%, 53%);
+    background-size: 100%;
+    transition: background 0s;
+}
