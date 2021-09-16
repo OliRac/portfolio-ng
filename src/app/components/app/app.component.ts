@@ -14,20 +14,12 @@ export class AppComponent {
   }
 
   toggleLang(): void {
-    this.getCurrentLang() === LANG_CODES.english ? this.setCurrentLang(LANG_CODES.french) : this.setCurrentLang(LANG_CODES.english);
+    this.translate.currentLang === LANG_CODES.english ? this.translate.use(LANG_CODES.french) : this.translate.use(LANG_CODES.english);
   }
 
   configTranslation(): void {
     this.translate.addLangs([LANG_CODES.english, LANG_CODES.french]);
     this.translate.setDefaultLang(LANG_CODES.english);
-    this.translate.use(LANG_CODES.english);
-  }
-
-  getCurrentLang(): string {
-    return this.translate.currentLang;
-  }
-
-  setCurrentLang(langCode: string): void {
-    this.translate.use(langCode);
+    this.translate.use(sessionStorage.getItem("language") || LANG_CODES.english);
   }
 }

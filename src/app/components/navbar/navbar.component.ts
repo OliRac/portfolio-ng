@@ -23,4 +23,9 @@ export class NavbarComponent implements OnInit {
     this.burger.classList.toggle("is-active");
     this.menu.classList.toggle("is-active");
   }
+
+  setCurrentLang(langCode: string): void {
+    this.translate.use(langCode);
+    sessionStorage.setItem("language", langCode);
+  }
 }
