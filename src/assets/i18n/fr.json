@@ -4,7 +4,7 @@
     "about": {
         "title": "À propos",
         "quote": "Concentre sur le moment.",
-        "description": "Récemment gradué de l'université Concordia de Montréal en sciences informatiques. Je cherche a prendre mon premier pas dans l'industrie, que ce soit en web, mobile, corporatif ou même en jeux. J'ai commencé en tant que technicien TI pour la ville de Westmount, à faire principalement du développement frontal et des scripts pour faciliter la vie des gens du département. Ceci m'a donné la motivation a continuer des études supérieures en informatique."
+        "description": "Olivier Racette possède plusieurs années d'expérience dans le domaine de technologie de l'information. Après trois étés à travailler en tant que technicien TI à la ville de Westmount, il a completé un BAC en Sciences informatiques à Concordia. Comme choix de cours avancées, il a choisi le développement d'applications 3D, le réseautage, l'intelligence artificielle et la vision par ordinateur. Il a ensuite enfilé avec une année en tant que développeur conseiller chez CGI, où il a perfectionné sa compétence d'écoute du client et de travail en équipe. Il possède l'expertise dans la mise en forme d'applications de nombreux languages informatiques, étant capable de faire du développement frontal ou arrière sans problleme."
     },
     "education": {
         "title":"Éducation",
@@ -22,6 +22,12 @@
     "experience": {
         "title": "Expérience",
         "jobs": [
+            {
+                "title": "Développeur consultant",
+                "description": ["Travail en collaboration avec divers clients pour la mise en ligne de solutions web.", "Développement de microservices modernes au moyen de Spring Boot, PostgreSQL, RabbitMQ, Docker.", "Conception d’interfaces web interactives avec Angular.", "Implémentation de services de données en temps réel à l’aide de websockets.", "Automatisation de tests avec Jest, Jasmine, JUnit.", "Utilisation de la méthodologie Agile."],
+                "location": "CGI",
+                "duration": "Juin 2021 - Décembre 2022"
+            },
             {
                 "title": "Saisie de données",
                 "description": ["Travail en ligne à temps partiel pour un projet confidentiel.", "Excellente opportunité de travailler avec un horaire universitaire à temps plein."],
@@ -53,13 +59,13 @@
     },
     "knowledge": {
         "title": "Connaissances",
-        "elements": ["Pipeline OpenGL", "Réseautage (TCP/UDP)", "Microservices", "Intelligence Artificielle", "Apprentissage Automatique", "Vision par Ordinateur"]
+        "elements": ["Microservices", "Bases de données", "Pipeline OpenGL", "Intelligence Artificielle", "Apprentissage Automatique", "Vision par Ordinateur"]
     },
     "links": {
         "title": "Liens"
     },
     "skills": {
         "title": "Compétences",
-        "elements": ["Python", "C++", "C#", "Java", "Javascript", "Typescript", "HTML/CSS" , "SQL" , "Unity", "Godot", "GLSL"]
+        "elements": ["Java", "Spring Boot", "Typescript", "Angular", "API REST", "Websockets", "Python", "OpenCV", "Scikit-learn" ,"C++", "C#", "SQL", "NoSQL", "Unreal Engine 5", "Unity", "Godot", "OpenGL", "GLSL"]
     }
 }
