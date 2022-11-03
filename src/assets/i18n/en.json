@@ -4,7 +4,7 @@
     "about": {
         "title": "About",
         "quote": "Concentrate on the moment.",
-        "description": "Fresh Computer Science graduate. Looking to take my first step in the software development industry, whether in web, mobile, corporate or games. Started off in IT for the City of Westmount, but instead of doing support work, I was tasked with front-end development and creating small programs to make the department’s employee's lives easier. This provided motivation to pursue an education in Computer Science, deviating from IT / support."
+        "description": "Olivier Racette posesses multiples years of experience in various facets of IT. After working as an IT technician for the city of Westmount, he completed a bachelors degree in Computer Science. For advanced electives, he chose to broaden his knowledge as much as he could, going for classes in topics such as 3D, networking, artificial intelligence and computer vision. He then followed up with a year as a consulting developer for CGI, where he improved his overall skills. He has the expertise to develop applications in many languages, while also being able to work on either front or back end without a hitch."
     },
     "education": {
         "title":"Education",
@@ -22,6 +22,12 @@
     "experience": {
         "title": "Experience",
         "jobs": [
+            {
+                "title": "Consulting Developer",
+                "description": ["Worked in collaboration with clients to build web solutions.", "Developed modern microservices using Spring Boot, PostgreSQL, RabbitMQ, Docker.", "Designed interactive web interfaces with Angular", "Implemented real time data services with websockets.", "Automated testing with Jest, Jasmine, JUnit.", "Applied Agile methodologies."],
+                "location": "CGI",
+                "duration": "Juin 2021 - Décembre 2022"
+            },
             {
                 "title": "Data Entry",
                 "description": ["Online part time work for a confidential project.", "Great opportunity to work with a full time college schedule."],
@@ -53,13 +59,13 @@
     },
     "knowledge": {
         "title": "Knowledge",
-        "elements": ["OpenGL Pipeline", "Networking (TCP/UDP)", "Microservices", "Artificial Intelligence", "Machine Learning", "Computer Vision"]
+        "elements": ["Microservices", "Databases", "OpenGL Pipeline", "Artificial Intelligence", "Machine Learning", "Computer Vision"]
     },
     "links": {
         "title":"Links"
     },
     "skills": {
         "title": "Skills",
-        "elements": ["Python", "C++", "C#", "Java", "Javascript", "Typescript", "HTML/CSS" , "SQL" , "Unity", "Godot", "GLSL"]
+        "elements": ["Java", "Spring Boot", "Typescript", "Angular", "REST API", "Websockets", "Python", "OpenCV", "Scikit-learn" ,"C++", "C#", "SQL", "NoSQL", "Unreal Engine 5", "Unity", "Godot", "OpenGL", "GLSL"]
     }
 }
